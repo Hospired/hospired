@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 255 255 255;
+    --foreground: 15 23 42;
+    --primary: 59 130 246;
+    --primary-foreground: 255 255 255;
+    --secondary: 20 184 166;
+    --secondary-foreground: 255 255 255;
+    --turquoise: 20 184 166;
+    --turquoise-foreground: 255 255 255;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
