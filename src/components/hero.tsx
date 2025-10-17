@@ -59,11 +59,6 @@ export function Hero() {
 
                 {/* Phone mockup image - larger and centered */}
                 <div className="relative mx-auto w-full max-w-[450px] lg:max-w-[500px]">
-                  <img
-                    src="/modern-smartphone-mockup-showing-hospired-medical-.jpg"
-                    alt="Hospired App Interface"
-                    className="w-full h-auto drop-shadow-2xl"
-                  />
                 </div>
               </div>
             </div>
